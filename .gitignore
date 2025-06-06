@@ -1,0 +1,36 @@
+# editor and OS junk
+.idea
+**/.DS_Store
+
+# nix symlink to the build output
+result
+
+.direnv
+.envrc
+
+# Rust stuff
+debug/
+target
+**/*.rs.bk
+
+malai/gen
+kulfi/gen
+
+# fastn test
+
+.env
+.env.swp
+
+# MSVC Windows builds of rustc generate these, which store debugging information
+*.pdb
+
+*.sqlite
+
+
+# fastn stuff
+.fastn
+.packages
+.build
+*.wasm
+
+.malai.id52
